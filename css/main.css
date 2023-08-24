@@ -504,7 +504,7 @@ img {
 
 .social-icon-one {
 	position: relative;
-	margin-right:50px ;
+	margin-right: 50px;
 }
 
 .social-icon-one li {
@@ -516,7 +516,7 @@ img {
 }
 
 .social-icon-one li.facebook a:hover {
-	background-color: #16599b;
+	background-color: #2697FF;
 	color: #ffffff;
 }
 
@@ -2995,7 +2995,8 @@ img {
 }
 
 .fact-counter .column:nth-child(3) .inner .count-outer {
-	color: #ff9c2c;;
+	color: #ff9c2c;
+	;
 }
 
 .fact-counter .column:nth-child(4) .inner .count-outer {
@@ -3371,24 +3372,7 @@ img {
 	border-radius: 40px;
 }
 
-.screen-pc {
-	background-image: url(../images/resource/pc.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	/* background-color: #000000; */
-	display: block;
-	height: 700px;
-	width: 80%;
-	left: calc(50% + 0.5px);
-	position: absolute;
-	top: 24px;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	
-	z-index: 2;
 
-	border-radius: 40px;
-}
 
 .swiper-slide.swiper-slide-active {
 	background-size: 100% 100%;
@@ -5054,22 +5038,19 @@ a.badge-contrast:focus {
 	font-size: 36px;
 	line-height: 1em;
 
-	background: -webkit-gradient(linear, left top, right top, from(#2bb852), color-stop(98%, #6ede4c), to(#6ede4c));
-	background: linear-gradient(to right, #2bb852 0%, #6ede4c 98%, #6ede4c 100%);
+	background: #ff9c2c;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .contact-section .info-column .info-list li:nth-child(2) .icon {
-	background: -webkit-gradient(linear, left top, right top, from(#9828d5), color-stop(98%, #de3fdb), to(#de3fdb));
-	background: linear-gradient(to right, #9828d5 0%, #de3fdb 98%, #de3fdb 100%);
+	background: #98ED58;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .contact-section .info-column .info-list li:nth-child(3) .icon {
-	background: -webkit-gradient(linear, left top, right top, from(#ff9c2c), color-stop(98%, #69d6ff), to(#69d6ff));
-	background: linear-gradient(to right, #ff9c2c 0%, #69d6ff 98%, #69d6ff 100%);
+	background: #2697FF;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -5165,12 +5146,12 @@ a.badge-contrast:focus {
 	padding: 18px 15px;
 	border-radius: 7px;
 	font-family: 'Poppins', sans-serif;
-	background-image: -ms-linear-gradient(left, #9426d5 0%, #e642dc 100%);
-	background-image: -moz-linear-gradient(left, #9426d5 0%, #e642dc 100%);
-	background-image: -o-linear-gradient(left, #9426d5 0%, #e642dc 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #9426d5), color-stop(100, #e642dc));
-	background-image: -webkit-linear-gradient(left, #9426d5 0%, #e642dc 100%);
-	background-image: linear-gradient(to right, #9426d5 0%, #e642dc 100%);
+	background-image: -ms-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -moz-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -o-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9c2c), color-stop(100, #ff8a03));
+	background-image: -webkit-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: linear-gradient(to right, #ff9c2c 0%, #ff8a03 100%);
 }
 
 /*** 
@@ -5527,6 +5508,7 @@ a.badge-contrast:focus {
 .page-title {
 	position: relative;
 	padding: 210px 0px 90px;
+	/* height: 75vh; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -7314,12 +7296,12 @@ a.badge-contrast:focus {
 
 .steps-section .carousel-column .carousel-inner {
 	position: relative;
-	width: 321px;
-	height: 658px;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	padding: 18px 19px 17px;
-	margin-left: 200px;
-	margin-top: -20px;
+	/* margin-left: 200px; */
+	margin-top: 100px;
 	background-repeat: no-repeat;
 }
 
@@ -7331,7 +7313,7 @@ a.badge-contrast:focus {
 	right: 0px;
 	height: 22px;
 	z-index: 1;
-	background: url(../images/resource/mobile-speaker.png) center center no-repeat;
+	/* background: url(../images/resource/mobile-speaker.png) center center no-repeat; */
 }
 
 .steps-section .carousel-column .carousel-inner .slides {
@@ -7433,8 +7415,7 @@ a.badge-contrast:focus {
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
-	background: -webkit-gradient(linear, left top, right top, from(#ff9c2c), color-stop(98%, #41b7fe), to(#41b7fe));
-	background: linear-gradient(to right, #ff9c2c 0%, #41b7fe 98%, #41b7fe 100%);
+	background: #ff9c2c;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -7444,8 +7425,7 @@ a.badge-contrast:focus {
 }
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(2) .icon i {
-	background: -webkit-gradient(linear, left top, right top, from(#9426d5), color-stop(98%, #eb44dc), to(#eb44dc));
-	background: linear-gradient(to right, #9426d5 0%, #eb44dc 98%, #eb44dc 100%);
+	background: #2697FF;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -7455,8 +7435,7 @@ a.badge-contrast:focus {
 }
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(3) .icon i {
-	background: -webkit-gradient(linear, left top, right top, from(#f24245), color-stop(98%, #fc8b8b), to(#fc8b8b));
-	background: linear-gradient(to right, #f24245 0%, #fc8b8b 98%, #fc8b8b 100%);
+	background: #98ED58;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -7482,12 +7461,12 @@ a.badge-contrast:focus {
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(1):hover .icon,
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(1).active .icon {
-	background-image: -ms-linear-gradient(left, #ff9c2c 0%, #45b9fe 100%);
-	background-image: -moz-linear-gradient(left, #ff9c2c 0%, #45b9fe 100%);
-	background-image: -o-linear-gradient(left, #ff9c2c 0%, #45b9fe 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9c2c), color-stop(100, #45b9fe));
-	background-image: -webkit-linear-gradient(left, #ff9c2c 0%, #45b9fe 100%);
-	background-image: linear-gradient(to right, #ff9c2c 0%, #45b9fe 100%);
+	background-image: -ms-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -moz-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -o-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9c2c), color-stop(100, #ff8a03));
+	background-image: -webkit-linear-gradient(left, #ff9c2c 0%, #ff8a03 100%);
+	background-image: linear-gradient(to right, #ff9c2c 0%, #ff8a03 100%);
 }
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(1):hover .icon i,
@@ -7498,12 +7477,12 @@ a.badge-contrast:focus {
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(2):hover .icon,
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(2).active .icon {
-	background-image: -ms-linear-gradient(left, #9326d5 0%, #ec44dd 100%);
-	background-image: -moz-linear-gradient(left, #9326d5 0%, #ec44dd 100%);
-	background-image: -o-linear-gradient(left, #9326d5 0%, #ec44dd 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #9326d5), color-stop(100, #ec44dd));
-	background-image: -webkit-linear-gradient(left, #9326d5 0%, #ec44dd 100%);
-	background-image: linear-gradient(to right, #9326d5 0%, #ec44dd 100%);
+	background-image: -ms-linear-gradient(left, #2697FF 0%, #83edff 100%);
+	background-image: -moz-linear-gradient(left, #2697FF 0%, #83edff 100%);
+	background-image: -o-linear-gradient(left, #2697FF 0%, #83edff 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #2697FF), color-stop(100, #83edff));
+	background-image: -webkit-linear-gradient(left, #2697FF 0%, #83edff 100%);
+	background-image: linear-gradient(to right, #2697FF 0%, #83edff 100%);
 }
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(2):hover .icon i,
@@ -7514,12 +7493,12 @@ a.badge-contrast:focus {
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(3):hover .icon,
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(3).active .icon {
-	background-image: -ms-linear-gradient(left, #f24346 0%, #fc8b8b 100%);
-	background-image: -moz-linear-gradient(left, #f24346 0%, #fc8b8b 100%);
-	background-image: -o-linear-gradient(left, #f24346 0%, #fc8b8b 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f24346), color-stop(100, #fc8b8b));
-	background-image: -webkit-linear-gradient(left, #f24346 0%, #fc8b8b 100%);
-	background-image: linear-gradient(to right, #f24346 0%, #fc8b8b 100%);
+	background-image: -ms-linear-gradient(left, #98ED58 0%, #82e94a 100%);
+	background-image: -moz-linear-gradient(left, #98ED58 0%, #82e94a 100%);
+	background-image: -o-linear-gradient(left, #98ED58 0%, #82e94a 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #98ED58), color-stop(100, #82e94a));
+	background-image: -webkit-linear-gradient(left, #98ED58 0%, #82e94a 100%);
+	background-image: linear-gradient(to right, #98ED58 0%, #82e94a 100%);
 }
 
 .steps-section .blocks-column .inner-column .carousel-indicators li:nth-child(3):hover .icon i,
