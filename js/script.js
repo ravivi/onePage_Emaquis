@@ -557,7 +557,29 @@
 	
 		});
 	}
+		// $(document).ready(function() {
+		//   $('#print-button').click(function() {
+		// 	var contentToPrint = $('#content-to-print').html();
+		// 	var printWindow = window.open('', '_blank');
+		// 	printWindow.document.write(
+		// 		'<html><head></head><body>'
+				
+		// 		);
+		// 	printWindow.document.write(contentToPrint);
+		// 	printWindow.document.write('</body></html>');
+		// 	printWindow.document.close();
+		// 	printWindow.print();
+		//   })
+		// });
 
+		$(document).ready(function() {
+			$('#print-button').click(function() {
+			  $('#content-to-print').printThis({
+				importCSS: true,   // Importe les styles CSS
+				pageTitle: 'Impression de contenu',  // Titre de la page imprimée
+			  });
+			});
+		  });
 
 
 	
