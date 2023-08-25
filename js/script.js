@@ -575,8 +575,11 @@
 		$(document).ready(function() {
 			$('#print-button').click(function() {
 			  $('#content-to-print').printThis({
-				importCSS: true,   // Importe les styles CSS
-				pageTitle: 'Impression de contenu',  // Titre de la page imprimée
+				importCSS: true,
+				   // Importe les styles CSS
+				pageTitle: 'E-maquis',
+				  // Titre de la page imprimée
+				  loadCSS: 'css/police.css'
 			  });
 			});
 		  });
