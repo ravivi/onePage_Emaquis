@@ -1314,10 +1314,11 @@ img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 80%;
+	width: 100%;
 	height: 970px;
-	background-position: right bottom;
+	background-position: left bottom;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .banner-section .bg-layer {
