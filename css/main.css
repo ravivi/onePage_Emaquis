@@ -2060,6 +2060,11 @@ img {
 	box-shadow: 0px 15px 15px rgba(239, 66, 70, 0.30);
 }
 
+/* .inner-box:hover{
+background-color: #ff9d2c17;
+transition: all 1s ease-in-out;
+} */
+
 .featured-block.style-two .inner-box .icon-box {
 	background-color: #20deff;
 	box-shadow: 0px 15px 15px rgba(0, 132, 154, 0.30);
