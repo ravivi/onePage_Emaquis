@@ -1455,7 +1455,8 @@ img {
 	padding-top: 210px;
 	padding-bottom: 80px;
 	background-position: left bottom;
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-repeat: cover;
 }
 
 .banner-section .patern-layer-one {
